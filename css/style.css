@@ -194,6 +194,42 @@ li{
     FOOTER
 ------------------*/
 
+footer{
+    background-color: #7c69a4; 
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.agency-name{
+    text-align: center;
+    margin: 10px;
+}
+
+.link a{
+    color: #fff;
+}
+
+.sreet-address{
+    text-align: center;
+}
+
+.links-list{
+    display: flex;
+    justify-content: center;
+}
+
+.links-list ul{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
 /* ------------------------
         RESPONSIVE
 --------------------------*/
@@ -206,10 +242,6 @@ li{
 
     .recipe-intro h2 span{
         display: inline;
-    }
-
-    .col-details li{
-        width: 30%;
     }
 
     .col-details .ul-top{
@@ -241,16 +273,35 @@ li{
     .presentation .content img{
         float: left;
         margin: 10px;
-    
     }
-
-
-
-
 
 }
 
 @media  screen and (min-width: 992px) {
-    
+    .recipe-intro .row{
+        flex-wrap: nowrap;
+    }
+
+    .recipe-intro .col-video{
+        width: 70%;
+    }
+
+    .recipe-intro .col-details{
+        width: 30%;
+    }
+
+    .recipe-intro .ul-top, .recipe-intro .ul-bottom{
+        display: inline-block;
+    }
+
+    .col-details li{
+        display: block;
+    }
+
+    .social .row .btn span{
+        display: inline;
+        font-weight: 700;
+    }
+
 }
 
