@@ -59,7 +59,6 @@ h3{
     color: #999999;
     font-size: 16px;
     font-weight: 300;
-
 }
 
 
@@ -68,6 +67,14 @@ h3{
 /*----------------
     BUTTONS
 ------------------*/
+
+.btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: 8px 8px 16px #e8e8e8;
+}
 
 /*----------------
     HEADER
@@ -106,6 +113,7 @@ main{
 .col-details{
     background-color: #fff;
     padding: 40px 30px;
+    box-shadow: 8px 8px 16px #e8e8e8;
 }
 
 .list-title{
@@ -123,7 +131,63 @@ li{
     padding: 10px 0;
 }
 
+.social{
+    margin: 20px 0;
+}
 
+.social span{
+    display: none;
+}
+
+.social .row{
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.fa-facebook{
+    color: #1a77f3;
+}
+
+.fa-twitter{
+    color: #009eff;
+}
+
+.fa-instagram{
+    color: #de3d78;
+}
+
+.fa-pinterest{
+    color: #e62222;
+}
+
+.fa-youtube{
+    color: #e62222;
+}
+
+/* ad */
+
+.advertisement{
+    display: none;
+}
+
+/* presetation */
+
+.presentation h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.img-tiramisù{
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 8px 8px 16px #e0dfdd;
+}
+
+.presentation p{
+    line-height: 2;
+}
 
 
 
@@ -144,6 +208,9 @@ li{
     .recipe-intro h2 span{
         display: inline;
     }
+
+    
+
 
 
 }
