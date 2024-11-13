@@ -1,15 +1,6 @@
 /*----------------
     DEBUG
 ------------------*/
-.debug .container {
-    border: 2px dashed blueviolet;
-}
-
-.debug .row .col {
-    border: 2px dashed lightcoral;
-    background-color: rgba(240, 128, 128, 0.2);
-    min-height: 200px;
-}
 
 /*----------------
     RESET
@@ -63,6 +54,10 @@ body {
     font-family: "Roboto", serif;
 }
 
+h1{
+    font-family: "Nerko One", cursive;
+    font-size: 45px;
+}
 /*----------------
     BUTTONS
 ------------------*/
@@ -87,7 +82,12 @@ body {
 /*----------------
     HEADER
 ------------------*/
-
+header{
+    background-color: #fff;
+    text-align: center;
+    padding: 14px;
+    color: #ff9614;
+}
 /*----------------
     MAIN
 ------------------*/
@@ -95,3 +95,17 @@ body {
 /*----------------
     FOOTER
 ------------------*/
+
+/* ------------------------
+        RESPONSIVE
+--------------------------*/
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    header{
+        text-align: left;
+    }
+}
+
+
+
