@@ -179,8 +179,8 @@ li{
 .img-tiramisù{
     width: 300px;
     margin: auto;
+    float: none;
     display: block;
-    margin-bottom: 15px;
     box-shadow: 8px 8px 16px #e0dfdd;
 }
 
@@ -221,13 +221,27 @@ li{
     .col-details .ul-bottom{
         display: flex;
         gap: 5%;
-
     }
+
+    .social .row .btn{
+        width: calc(100% / 5);
+    }
+
+    .social .row{
+        flex-wrap: nowrap;
+        gap:30px;
+    }
+
 
     .advertisement{
         display: block;
         margin-bottom: 20px;
-        
+    }
+
+    .presentation .content img{
+        float: left;
+        margin: 10px;
+    
     }
 
 
