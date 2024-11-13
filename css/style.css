@@ -121,10 +121,9 @@ main{
     margin-bottom: 20px;
 }
 
-ul{
+.recipe-intro .ul-top, .ul-bottom{
     list-style: none;
     display: block;
-
 } 
 
 li{
@@ -209,7 +208,30 @@ li{
         display: inline;
     }
 
+    .col-details li{
+        width: 30%;
+    }
+
+    .col-details .ul-top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-details .ul-bottom{
+        display: flex;
+        gap: 5%;
+
+    }
+
+    .advertisement{
+        display: block;
+        margin-bottom: 20px;
+    }
+
     
+
+
 
 
 
