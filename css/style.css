@@ -197,8 +197,7 @@ li{
 footer{
     background-color: #7c69a4; 
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 .agency-name{
@@ -305,5 +304,25 @@ footer{
         font-weight: 700;
     }
 
-}
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .agency-name{
+        text-align: left;
+    }
+
+    .sreet-address{
+        text-align: left;
+    }
+
+    .links-list ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+}
